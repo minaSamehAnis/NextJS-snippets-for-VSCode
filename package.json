@@ -1,0 +1,37 @@
+{
+  "name": "nextjs-snippets",
+  "displayName": "NextJS snippets",
+  "description": "This extension for snippets for NextJS framework",
+  "version": "0.0.1",
+  "publisher": "MinaSamehAnis",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minaSamehAnis/NextJS-snippets-for-VSCode.git"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

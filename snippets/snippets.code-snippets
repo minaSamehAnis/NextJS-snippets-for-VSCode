@@ -1,0 +1,68 @@
+{
+  "Next.js Functional Component": {
+    "prefix": "nextfc",
+    "body": [
+      "",
+      "const $1 = () => {",
+      "  return (",
+      "    <div>",
+      "      $2",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default $1;"
+    ],
+    "description": "Create a functional component in Next.js"
+  },
+  "Next.js Page Component": {
+    "prefix": "nextpage",
+    "body": [
+      "",
+      "const $1 = () => {",
+      "  return (",
+      "    <div>",
+      "      <h1>$2</h1>",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default $1;"
+    ],
+    "description": "Create a basic Next.js page component"
+  },
+  "Next.js getServerSideProps": {
+    "prefix": "getserversideprops",
+    "body": [
+      "export async function getServerSideProps(context) {",
+      "  return {",
+      "    props: {}, // will be passed to the page component as props",
+      "  };",
+      "}"
+    ],
+    "description": "Add getServerSideProps to a Next.js page"
+  },
+  "Next.js getStaticProps": {
+    "prefix": "getstaticprops",
+    "body": [
+      "export async function getStaticProps(context) {",
+      "  return {",
+      "    props: {}, // will be passed to the page component as props",
+      "  };",
+      "}"
+    ],
+    "description": "Add getStaticProps to a Next.js page"
+  },
+  "Next.js getStaticPaths": {
+    "prefix": "getstaticpaths",
+    "body": [
+      "export async function getStaticPaths() {",
+      "  return {",
+      "    paths: [],",
+      "    fallback: false,",
+      "  };",
+      "}"
+    ],
+    "description": "Add getStaticPaths to a Next.js page"
+  }
+}
